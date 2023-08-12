@@ -1,16 +1,20 @@
-# voting_app
+# Mobile Voting App
 
-A new Flutter project.
+A smartphone application for secure, transparent, and easy-to-use electronic voting.Users can only vote once, and the results are displayed immediately.
 
-## Getting Started
+# OBJECTIVES
 
-This project is a starting point for a Flutter application.
+- To provide additional verification option, utilizing the built-in fingerprint and face recognition sensors/features of the mobile device, thus enhancing security.
 
-A few resources to get you started if this is your first Flutter project:
+- To expedite the voting process. Data in mobile applications is typically saved locally on the device, as opposed to web pages, which allows for quick data retrieval. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Improve accessibility and efficiency so users can vote at the comfort of their home with their smart device
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Blockchain offers more data security; When apps are designed using blockchain, it can boost data privacy, making the apps more safe. Since every piece of data is encoded and preserved using a cryptographic hash, its encryption method is regarded as impenetrable.
+
+- To reduce voting time due to large lineups for accreditation and voting.
+
+- Reducing the need for manual vote counting and tabulation, as well as save money in terms of printing and distributing paper ballots
+
+- Allow transparency as users can view live result updates from the application.
+
