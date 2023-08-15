@@ -1,31 +1,40 @@
-// SPDX-License-Identifier: GPL-3.0
+#version of Solidity 
 pragma solidity ^0.5.0;
 
 contract Voting{
 
-int alpha;
-int beta;
+int presidential;
+int gubernatorial;
+int localGovernment;
 
 constructor() public {
-   alpha  = 0;
-    beta = 0;
+    presidential  = 0;
+    gubernatorial = 0;
+    localGovernment = 0;
 }
 
 function getTotalVotesAlpha() view public returns(int) {
-    return alpha;
+    return presidential;
 }
 
 function getTotalVotesBeta() view public returns(int){
-    return beta;
+    return gubernatorial;
+}
+
+function getTotalVotesBeta() view public returns(int){
+    return localGovernment;
 }
 
 function voteAlpha () public{
-    alpha = alpha+1;
+    presidential = presidential+1;
 }
 
 function voteBeta () public{
-    beta = beta+1;
+    gubernatorial = gubernatorial+1;
+}
+
+function voteBeta () public{
+    localGovernment = localGovernment+1;
 }
 }
 
-}
